@@ -157,3 +157,6 @@ C:\Users\ramya\source\repos\Ecommerce\Ecommerce.Api\obj\Debug\net8.0\refint\Ecom
 C:\Users\ramya\source\repos\Ecommerce\Ecommerce.Api\obj\Debug\net8.0\Ecommerce.Api.pdb
 C:\Users\ramya\source\repos\Ecommerce\Ecommerce.Api\obj\Debug\net8.0\Ecommerce.Api.genruntimeconfig.cache
 C:\Users\ramya\source\repos\Ecommerce\Ecommerce.Api\obj\Debug\net8.0\ref\Ecommerce.Api.dll
+C:\Users\ramya\source\repos\Ecommerce\Ecommerce.Api\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\ramya\source\repos\Ecommerce\Ecommerce.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\ramya\source\repos\Ecommerce\Ecommerce.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
