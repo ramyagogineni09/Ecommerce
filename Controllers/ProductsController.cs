@@ -1,6 +1,7 @@
 ﻿using Ecommerce.Application.DTOs.Product;
 using Ecommerce.Application.Interfaces;
 using Ecommerce.domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Client;
 
@@ -9,6 +10,7 @@ namespace Ecommerce.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize(Roles = "Admin")]
     public class ProductsController : ControllerBase
     {
         private readonly IProductRepository _repository;
@@ -74,9 +76,11 @@ namespace Ecommerce.Api.Controllers
          }
 
 
-
+     
 
 
 
     }
+
+
 }
